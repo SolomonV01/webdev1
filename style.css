@@ -7,8 +7,8 @@ html{
 }
 
 :root {
-	--color-bg: #debce8;
-  --color-text: #874899;
+	--color-bg: #0c0d0d;
+  --color-text: #f2c99d;
 }
 
 body {
@@ -20,12 +20,13 @@ body {
 }
 
 .link, nav, a {
-  color: purple;
-  background-color: #af6dc2;
+  color: #d13f3f;
+  background-color: #f2c99d;
   padding: 1em;
   margin: 0;
   text-align: right;
   text-decoration: none;
+
 }
 
 h2, h3, h4, h5{
@@ -34,7 +35,7 @@ h2, h3, h4, h5{
 }
 
 h3 {
-    color: purple;
+    color: #f2c99d;
 }
 
 p {
@@ -42,6 +43,8 @@ p {
     font-size: 20px;
     max-width: 40rem;
     margin: 0 auto;
+    color:#d13f3f;
+
 }
 
 img {
@@ -51,7 +54,7 @@ img {
 }
 
 .back-to-top {
-  background-color: lavender;
+  background-color: #f2c99d;
   padding: 2rem;
   text-align: center;
   position: fixed;
@@ -60,7 +63,7 @@ img {
 }
 
 footer{
-  background-color: #af6dc2;
+  background-color: #f2c99d;
   padding: 0rem;
   text-align: center;
 }

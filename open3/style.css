@@ -1,0 +1,98 @@
+body {
+    background: url(https://48b6yd3iigex2rv7g41h5sts-wpengine.netdna-ssl.com/wp-content/uploads/2021/05/dark-academia.gif);
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .pyramid{
+    max-width: 800px;
+  }
+  
+  marquee{
+    color: orange;
+    position: absolute;
+    font-size: 30px;
+    top: 250px;
+    text-align: left;
+  }
+  
+  audio{
+    
+  }
+  
+  .emoji{
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .box1{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .who{
+    color: white;
+    background-color: orange;
+    padding: 4rem;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .head{
+    color: yellow;
+    background-color: orangered;
+    padding: 4rem;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+  }
+  
+  .walter{
+    width: 500px;
+  }
+  
+  .you{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 320px;
+    font-size: 30px;
+  }
+  
+  .explain{
+    color: orangered;
+    position: absolute;
+    bottom: 10px;
+    left: 320px;
+    font-size: 20px
+  }
+  
+  .shrug{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+  }
+  
+  .pacman{
+    position: absolute;
+    width: 100px;
+    top: 220px;
+    left: 120px;
+  }
+  
+  .answer{
+    position: absolute;
+    color: orangered;
+    font-size: 30px;
+    right: 0;
+  }
