@@ -1,0 +1,86 @@
+/*Imports always at the top*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100;1,300&family=Julius+Sans+One&family=Oswald:wght@500;600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root{
+  --color-body-text: #ffffff;
+  --color-body-bg: #4e3b9c;
+  --color-header-footer-bg: #dbaa84;
+  --color-links: #dbaa84;
+}
+
+*{
+  Margin: 0;
+}
+
+body{
+  color: var(--color-body-bg);
+  background-color: #211f29;
+}
+
+h1{
+  display: inline-block;
+  font-family: "Julius Sans One", sans-serif;
+  width: 100%;
+  max-width: 50rem;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--color-body-bg);
+}
+
+p{
+  width: 100%;
+  max-width: 48.7rem;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--color-links);
+  line-height: 2.0rem;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: var(--color-header-footer-bg);
+}
+
+footer{
+  text-align: center;
+  background-color: var(--color-header-footer-bg);
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/*Utility Classes*/
+.center{
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  font-family: "Julius Sans One", sans-serif;
+  max-width: 50rem;
+}
+
+li{
+  font-family: "Julius Sans One", sans-serif;
+  background-color: var(--color-links);
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 48.7rem;
+  width: 100%;
+  font-size: 25px;
+}
+
+h2, h3{
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}

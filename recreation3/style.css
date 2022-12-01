@@ -17,105 +17,104 @@ these properties:
 .example {
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .a {
+.a {
    flex-direction: row;
    justify-content: right;
    align-items: flex-end;
-  }
+}
   
-  .b {
+.b {
     flex-direction: column;
     justify-content: space-between;
-  }
+}
   
-  .c {
+.c {
     flex-direction: row-reverse;
     justify-content: left;
     align-items: flex-end;
-  }
+}
   
-  .d {
+.d {
     flex-direction: column-reverse;
     justify-content: space-evenly;
     align-items: center;
-  }
+}
   
-  .e {
+.e {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-  }
+}
   
-  .f {
+.f {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-  }
+}
   
-  .g {
+.g {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-  }
+}
   
   /* Don't change any CSS below this line */
   
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
   
-  body {
-      font-family: Arial;
-      max-width: 40rem;
-      margin: 0 auto;
-      padding: .5rem;
-  }
+body {
+    font-family: Arial;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: .5rem;
+}
   
-  p {
+p {
     font-size: 1.25rem;
     margin: 1em 0;
-  }
+}
   
-  ul {
+ul {
     margin-left: 2rem;
     font-size: 1.25rem;
-  }
+}
   
-  header {
-      padding: 2rem 0;
-  }
+header {
+    padding: 2rem 0;
+}
   
-  section {
+section {
     margin-bottom: 6rem;
-  }
+}
   
-  section h2 {
+section h2 {
     margin: 2rem 0;
-  }
+}
   
-  .container {
-      display: flex;
-      background-color: lightgray;
-      height: 30rem;
-  }
+.container {
+    display: flex;
+    background-color: lightgray;
+    height: 30rem;
+}
   
-  .flex-item {
-      padding: 1rem;
-      font-size: 1.25rem;
-      outline: 2px solid red;
-      text-align: center;
-  }
-  
-  .example .flex-item {background-color: darkorange;}
-  .a .flex-item {background-color: lightcoral;}
-  .b .flex-item {background-color: gold;}
-  .c .flex-item {background-color: lightcyan;}
-  .d .flex-item {background-color: lightsteelblue;}
-  .e .flex-item {background-color: lightseagreen;}
-  .f .flex-item {background-color: violet;}
-  .g .flex-item {background-color: cornflowerblue;}
+.flex-item {   
+    padding: 1rem;
+    font-size: 1.25rem;
+    outline: 2px solid red;
+    text-align: center;
+} 
+.example .flex-item {background-color: darkorange;}
+.a .flex-item {background-color: lightcoral;}
+.b .flex-item {background-color: gold;}
+.c .flex-item {background-color: lightcyan;}
+.d .flex-item {background-color: lightsteelblue;}
+.e .flex-item {background-color: lightseagreen;}
+.f .flex-item {background-color: violet;}
+.g .flex-item {background-color: cornflowerblue;}
