@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+    max-width: 600px;
+    display: block;
+    padding: 12px;
+    color: teal;
+  }
+  
+  img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+  }
+  
+  div{
+    text-align: left;
+    max-width: 600px;
+    padding: 12px;
+  }
+  
+  a{
+    color: teal;
+    text-align: centered;
+  }
