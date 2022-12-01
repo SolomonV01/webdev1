@@ -1,0 +1,48 @@
+p{
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  h1{color: yellow;
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  strong{color: red;
+    display: block;     
+    text-align: center;
+    font-size: 30px;
+    font: cursive;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.list2{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+  }
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  strong{
+    display: block;
+    text-align: center;
+    font-size: 30px
+  }
+  
+  div.list1{
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+  }
+  body{
+    background-image: url(https://res.cloudinary.com/cognitives-s3/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face:auto,h_964,q_auto,w_2500/v1/cog-live/n/1271/2019/Jan/14/O3SBCAV23O4wADRAy3pc.gif);
+  }
