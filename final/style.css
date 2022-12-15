@@ -123,6 +123,20 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+  
+.gallery img {
+    width: 100%;
+    flex-basis: 30%;
+    flex-grow: 1;
+    min-width: 200px;
+  
+}
+
 footer {
     background-color: #02001f;
     padding: 1rem;
