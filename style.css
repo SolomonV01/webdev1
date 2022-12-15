@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    flex-wrap: wrap;
-}
-
 html{
   scroll-behavior: smooth;
 }
@@ -15,7 +10,7 @@ html{
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: .75rem;
+    padding:  1rem;
     color: var(--color-text);
     background-color: var(--color-bg);
 }
@@ -23,27 +18,32 @@ body {
 a {
   color: #d13f3f;
   background-color: #f2c99d;
-  padding: 1em;
+  padding: 1rem;
   margin: 0 auto;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+
+  
 }
 
 h2, h3, h4, h5{
-    max-width: 40rem;
-    margin: 0 auto;
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h3 {
-    color: #f2c99d;
+  color: #f2c99d;
+  text-align: center;
+  padding: 1rem;
 }
 
 p {
-    line-height: 2.0;
-    font-size: 20px;
-    max-width: 40rem;
-    margin: 0 auto;
-    color:#d13f3f;
-
+  color: #f2c99d;
+  text-align: center;
 }
 
 .back-to-top {
