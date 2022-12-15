@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    font-family: "Luminari", fantasy ;
+}
+
+img {
+    max-width: 500px;
+    
+}
+
+nav {
+    background-color: rgb(142, 76, 190);
+    padding: 2rem;
+    
+}
+
+a{
+    text-align: end;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
