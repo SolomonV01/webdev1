@@ -8,16 +8,21 @@ body {
     margin: 0 auto;
 
     font-family: "Luminari", fantasy ;
+    background: linear-gradient(0deg, rgba(194,142,110,1) 0%, rgba(61,42,35,1) 99%);
+
 }
 
 img {
     max-width: 500px;
     
+    
 }
 
-nav {
-    background-color: rgb(142, 76, 190);
+.links {
+    background-color: rgb(111, 82, 69);
     padding: 2rem;
+
+    justify-content: space-evenly;
     
 }
 
@@ -26,8 +31,13 @@ a{
     font-size: 20px;
     letter-spacing: 2px;
     text-decoration: none;
+
+    color: rgb(46, 37, 33);
 }
 
 h1, h2 {
     text-align: center;
+    color: bisque;
+
+    letter-spacing: 4px;
 }
