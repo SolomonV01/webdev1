@@ -7,8 +7,18 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
 
-    font-family: "Luminari", fantasy ;
+    font-family: "Optima", sans-serif;
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(48,9,121,1) 35%, rgba(0,155,255,1) 100%);
+
+}
+
+p {
+    color: #009bff;
+    
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 18px;
 
 }
 
