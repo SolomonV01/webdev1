@@ -135,6 +135,19 @@ h1, h2, h3 {
   
 }
 
+.back-to-top {
+    background-color: #02001f;
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 footer {
     background-color: #02001f;
     padding: 1rem;
