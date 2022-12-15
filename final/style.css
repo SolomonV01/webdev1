@@ -1,6 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
+
 
 body {
     box-sizing: border-box; 
@@ -74,6 +72,33 @@ h1, h2 {
     letter-spacing: 4px;
 
 }
+
+.flexbox{
+    display: flex;
+    padding: 1em;
+  
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem;
+
+    box-sizing: border-box;
+}
+
+.image {
+    min-width: 400px;
+    flex-basis: 60%;
+    flex-grow: 1;
+    min-width: 10rem;
+}
+
+.text {
+    flex-basis: 35%;
+    flex-grow: 1;
+    min-width: 10rem;
+}
+
+
 
 footer {
     background-color: #02001f;
