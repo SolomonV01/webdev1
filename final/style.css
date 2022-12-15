@@ -8,22 +8,31 @@ body {
     margin: 0 auto;
 
     font-family: "Luminari", fantasy ;
-    background: linear-gradient(0deg, rgba(194,142,110,1) 0%, rgba(61,42,35,1) 99%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(48,9,121,1) 35%, rgba(0,155,255,1) 100%);
 
 }
 
 img {
+    width: 50%;
     max-width: 500px;
-    
-    
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
 }
 
 .links {
-    background-color: rgb(111, 82, 69);
+    background-color: #02001f;
     padding: 2rem;
 
-    justify-content: space-evenly;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2rem;
 }
 
 a{
@@ -32,12 +41,17 @@ a{
     letter-spacing: 2px;
     text-decoration: none;
 
-    color: rgb(46, 37, 33);
+    color: #009bff;
 }
 
 h1, h2 {
     text-align: center;
-    color: bisque;
+    color: #009bff;
 
     letter-spacing: 4px;
+}
+
+footer {
+    background-color: #02001f;
+    padding: 1rem;
 }
