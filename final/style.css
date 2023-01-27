@@ -68,6 +68,8 @@ video {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 2rem;
+
+    
 }
 
 a{
