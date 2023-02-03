@@ -1,8 +1,10 @@
 body {
     box-sizing: border-box; 
-    flex-wrap: wrap;
+    display: flex;
     margin: 0 auto;
-
+    min-height: 100vh;
+    flex-direction: column;
+    
     font-family: "Optima", sans-serif;
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(48,9,121,1) 35%, rgba(0,155,255,1) 100%);
 
@@ -16,6 +18,10 @@ p {
     word-spacing: 1px;
     font-size: 18px;
     
+}
+
+.wrapper {
+    flex-grow: 1;
 }
 
 .my-image {
@@ -32,14 +38,15 @@ p {
 }
 
 .self {
-    flex-basis: 60%;
+    flex-basis: 40%;
     flex-grow: 1;
+
+    max-width: 400px;
 }
 
 img {
-    width: 50%;
+    width: 100%;
     min-width: 300px;
-    max-width: 400px;
     border-radius: 5%;
 
     display: block;
@@ -96,15 +103,18 @@ h1, h2, h3 {
     flex-wrap: wrap;
     border-radius: 1em;
     align-items: center;
-    gap: 1rem;
+    gap: 1rem 5rem; 
 
     box-sizing: border-box;
+    justify-content: center;
 }
 
 .text {
     flex-basis: 35%;
     flex-grow: 1;
-    min-width: 10rem;
+    min-width: 14rem;
+    max-width: 50ch;
+    line-height: 1.75;
 }
 
 .contact {
