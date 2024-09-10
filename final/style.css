@@ -5,12 +5,15 @@ body {
     min-height: 100vh;
     flex-direction: column;
     
-    font-family: "Optima", sans-serif;
-    background: linear-gradient(180deg, rgb(79, 74, 182) 0%, rgba(48,9,121,1) 35%, rgba(0,155,255,1) 100%);
+    font-family: "pf-marlet-display", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+    background: linear-gradient(180deg, rgba(161,158,181,1) 0%, rgba(224,229,245,1) 100%);
 }
 
 p {
-    color: #009bff;
+    color: #605b77;
     
     padding: 1rem;
     letter-spacing: 2px;
@@ -53,7 +56,6 @@ img {
 
     padding: 1rem;
     align-content: center;
-
 }
 
 video {
@@ -65,27 +67,27 @@ video {
 }
 
 .links {
-    background-color: #02001f;
-    padding: 2rem;
+    background-color: #8e8ca4;
+    padding: 1rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 a{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
     text-decoration: none;
     
-    color: #009bff;
+    color: #302d40;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4{
     text-align: center;
-    color: #009bff;
+    color: #302d40;
 
     letter-spacing: 4px;
 }
@@ -113,6 +115,7 @@ h1, h2, h3 {
 
 .contact {
     width: 50%;
+    max-width: 500px;
     border-radius: 5%;
 
     display: block;
@@ -127,22 +130,30 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.gallery {
+.gallery, .gallery2, .gallery3{
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
+    
 }
   
-.gallery img {
+.gallery img, .gallery2 img, .gallery3 img{
     width: 100%;
     flex-basis: 30%;
-    flex-grow: 1;
+    flex-grow: 2;
     min-width: 200px;
 }
 
+.buff{
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .back-to-top {
-    background-color: #02001f;
-    padding: 1.5rem;
+    background-color: #bbb8d7;
+    padding: 1rem;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -154,8 +165,10 @@ html {
 }
 
 footer {
-    background-color: #02001f;
+    background-color: #736f8e;
     padding: 1rem;
+
+    margin-top: auto;
 }
 
 table, th, td {
@@ -165,4 +178,93 @@ table, th, td {
 .test{
     width: 100%;
     background-image: url("images/cardi.png");
+}
+
+.dropdown-content a:hover {
+    color:aliceblue;
+    flex-direction: column;
+}
+
+.folio:hover .dropdown-content {
+    display: block;
+    flex-direction: column;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #605b77;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.amazon img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.nav img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.nascar img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.cover img{
+    max-width: 600px;
+}
+
+.minilinks img{
+    width: 100%;
+    max-width: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.webapp img{
+    width: 100%;
 }
